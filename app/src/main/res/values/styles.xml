@@ -1,0 +1,231 @@
+<!--
+  ~ Copyright 2024 Household Budget App  
+  ~ Component and Widget Styles
+  -->
+<resources>
+
+    <!-- Card Styles -->
+    <style name="Widget.HouseholdBudget.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="rippleColor">?attr/colorControlHighlight</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.CardView.Outlined" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">?attr/colorOutlineVariant</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.CardView.Large" parent="Widget.HouseholdBudget.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.HouseholdBudget.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="textAppearance">?attr/textAppearanceLabelLarge</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="textAppearance">?attr/textAppearanceLabelLarge</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="textAppearance">?attr/textAppearanceLabelLarge</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="textAppearance">?attr/textAppearanceLabelLarge</item>
+    </style>
+
+    <!-- FAB Styles -->
+    <style name="Widget.HouseholdBudget.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="elevation">6dp</item>
+        <item name="hoveredFocusedTranslationZ">8dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="borderWidth">0dp</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.FloatingActionButton.Large" parent="Widget.Material3.FloatingActionButton.Large.Primary">
+        <item name="elevation">6dp</item>
+        <item name="hoveredFocusedTranslationZ">8dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="borderWidth">0dp</item>
+    </style>
+
+    <!-- Text Input Styles -->
+    <style name="Widget.HouseholdBudget.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextAppearance">?attr/textAppearanceBodySmall</item>
+        <item name="helperTextTextAppearance">?attr/textAppearanceBodySmall</item>
+        <item name="errorTextAppearance">?attr/textAppearanceBodySmall</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.TextInputLayout.Filled" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="hintTextAppearance">?attr/textAppearanceBodySmall</item>
+        <item name="helperTextTextAppearance">?attr/textAppearanceBodySmall</item>
+        <item name="errorTextAppearance">?attr/textAppearanceBodySmall</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.TextInputLayout.Dropdown" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="Widget.HouseholdBudget.Chip" parent="Widget.Material3.Chip.Assist">
+        <item name="chipCornerRadius">8dp</item>
+        <item name="chipMinHeight">32dp</item>
+        <item name="textAppearance">?attr/textAppearanceLabelMedium</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.Chip.Filter" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">8dp</item>
+        <item name="chipMinHeight">32dp</item>
+        <item name="textAppearance">?attr/textAppearanceLabelMedium</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.Chip.Input" parent="Widget.Material3.Chip.Input">
+        <item name="chipCornerRadius">8dp</item>
+        <item name="chipMinHeight">32dp</item>
+        <item name="textAppearance">?attr/textAppearanceLabelMedium</item>
+    </style>
+
+    <!-- Progress Indicator Styles -->
+    <style name="Widget.HouseholdBudget.LinearProgressIndicator" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="trackCornerRadius">4dp</item>
+        <item name="trackThickness">8dp</item>
+        <item name="indicatorColor">?attr/colorPrimary</item>
+        <item name="trackColor">?attr/colorSurfaceVariant</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.CircularProgressIndicator" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorSize">48dp</item>
+        <item name="trackThickness">4dp</item>
+        <item name="indicatorColor">?attr/colorPrimary</item>
+        <item name="trackColor">?attr/colorSurfaceVariant</item>
+    </style>
+
+    <!-- Switch Styles -->
+    <style name="Widget.HouseholdBudget.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="thumbTint">?attr/colorOnPrimary</item>
+        <item name="trackTint">?attr/colorPrimary</item>
+        <item name="trackDecorationTint">?attr/colorOutlineVariant</item>
+    </style>
+
+    <!-- Slider Styles -->
+    <style name="Widget.HouseholdBudget.Slider" parent="Widget.Material3.Slider">
+        <item name="thumbColor">?attr/colorPrimary</item>
+        <item name="activeTrackColor">?attr/colorPrimary</item>
+        <item name="inactiveTrackColor">?attr/colorSurfaceVariant</item>
+        <item name="tickColor">?attr/colorOnSurfaceVariant</item>
+        <item name="haloColor">?attr/colorPrimary</item>
+        <item name="thumbRadius">10dp</item>
+        <item name="trackHeight">4dp</item>
+    </style>
+
+    <!-- Bottom Sheet Styles -->
+    <style name="Widget.HouseholdBudget.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="shapeAppearance">@style/ShapeAppearance.HouseholdBudget.BottomSheet</item>
+        <item name="behavior_peekHeight">200dp</item>
+        <item name="behavior_fitToContents">false</item>
+        <item name="behavior_hideable">true</item>
+    </style>
+
+    <style name="ShapeAppearance.HouseholdBudget.BottomSheet" parent="ShapeAppearance.Material3.Corner.Top">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- Navigation Styles -->
+    <style name="Widget.HouseholdBudget.NavigationView" parent="Widget.Material3.NavigationView">
+        <item name="itemIconTint">?attr/colorOnSurfaceVariant</item>
+        <item name="itemTextColor">?attr/colorOnSurface</item>
+        <item name="itemBackground">@drawable/navigation_item_background</item>
+        <item name="itemShapeAppearance">@style/ShapeAppearance.HouseholdBudget.CornerMedium</item>
+    </style>
+
+    <style name="Widget.HouseholdBudget.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_navigation_color</item>
+        <item name="itemTextColor">@color/bottom_navigation_color</item>
+        <item name="elevation">8dp</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+    <!-- Toolbar Styles -->
+    <style name="Widget.HouseholdBudget.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">?attr/textAppearanceTitleLarge</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+        <item name="subtitleTextAppearance">?attr/textAppearanceBodyMedium</item>
+        <item name="subtitleTextColor">?attr/colorOnPrimary</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+    </style>
+
+    <!-- Tab Layout Styles -->
+    <style name="Widget.HouseholdBudget.TabLayout" parent="Widget.Material3.TabLayout">
+        <item name="tabIndicatorColor">?attr/colorPrimary</item>
+        <item name="tabSelectedTextColor">?attr/colorPrimary</item>
+        <item name="tabTextColor">?attr/colorOnSurfaceVariant</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabGravity">start</item>
+        <item name="tabTextAppearance">?attr/textAppearanceTitleSmall</item>
+    </style>
+
+    <!-- Divider Styles -->
+    <style name="Widget.HouseholdBudget.Divider" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/colorOutlineVariant</item>
+        <item name="android:layout_marginVertical">8dp</item>
+    </style>
+
+    <!-- Custom Animation Styles -->
+    <style name="Animation.HouseholdBudget.Activity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="Widget.HouseholdBudget.Dialog" parent="ThemeOverlay.Material3.Dialog.Alert">
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_min_width_minor</item>
+    </style>
+
+</resources>

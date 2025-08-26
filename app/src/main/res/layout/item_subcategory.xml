@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:minHeight="48dp"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp">
+
+    <!-- Subcategory Icon (optional) -->
+    <ImageView
+        android:id="@+id/ivSubcategoryIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="12dp"
+        android:visibility="gone"
+        tools:src="@drawable/ic_restaurant"
+        tools:visibility="visible" />
+
+    <!-- Subcategory Name -->
+    <TextView
+        android:id="@+id/tvSubcategoryName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?attr/textAppearanceBody2"
+        tools:text="外食" />
+
+    <!-- Subcategory Amount (optional) -->
+    <TextView
+        android:id="@+id/tvSubcategoryAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textAppearance="?attr/textAppearanceCaption"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:visibility="gone"
+        tools:text="¥15,000"
+        tools:visibility="visible" />
+
+    <!-- More Options -->
+    <ImageButton
+        android:id="@+id/btnSubcategoryOptions"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="サブカテゴリオプション"
+        android:src="@drawable/ic_more_vert"
+        android:visibility="gone" />
+
+</LinearLayout>

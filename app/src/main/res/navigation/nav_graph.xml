@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.householdbudget.ui.dashboard.DashboardFragment"
+        android:label="ダッシュボード">
+        <action
+            android:id="@+id/action_dashboard_to_add_transaction"
+            app:destination="@id/add_transaction" />
+        <action
+            android:id="@+id/action_dashboard_to_transactions"
+            app:destination="@id/transactions" />
+        <action
+            android:id="@+id/action_dashboard_to_budgets"
+            app:destination="@id/budgets" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/add_transaction"
+        android:name="com.example.householdbudget.ui.transaction.AddTransactionFragment"
+        android:label="取引を追加">
+        <argument
+            android:name="transactionType"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="transactionId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/transactions"
+        android:name="com.example.householdbudget.ui.transaction.TransactionListFragment"
+        android:label="取引履歴" />
+
+    <fragment
+        android:id="@+id/budgets"
+        android:name="com.example.householdbudget.ui.budget.BudgetListFragment"
+        android:label="予算管理" />
+
+    <fragment
+        android:id="@+id/categories"
+        android:name="com.example.householdbudget.ui.category.CategoryManagementFragment"
+        android:label="カテゴリ管理" />
+
+    <fragment
+        android:id="@+id/regular_transactions"
+        android:name="com.example.householdbudget.ui.regulartransaction.RegularTransactionListFragment"
+        android:label="定期的な取引" />
+
+    <fragment
+        android:id="@+id/goals"
+        android:name="com.example.householdbudget.ui.goal.GoalListFragment"
+        android:label="目標設定" />
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.householdbudget.ui.settings.SettingsFragment"
+        android:label="設定" />
+
+</navigation>

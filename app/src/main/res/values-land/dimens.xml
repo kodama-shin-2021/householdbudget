@@ -1,0 +1,39 @@
+<!--
+  ~ Copyright 2024 Household Budget App
+  ~ Landscape Orientation Dimensions
+  -->
+<resources>
+    
+    <!-- Reduced vertical spacing in landscape -->
+    <dimen name="spacing_normal">12dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xl">20dp</dimen>
+    <dimen name="spacing_xxl">24dp</dimen>
+
+    <!-- Optimized padding for landscape -->
+    <dimen name="padding_normal">12dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_xl">20dp</dimen>
+
+    <!-- Reduced card margins for better space utilization -->
+    <dimen name="card_padding">12dp</dimen>
+    <dimen name="card_margin">6dp</dimen>
+
+    <!-- Compact list items -->
+    <dimen name="list_item_height_medium">48dp</dimen>
+    <dimen name="list_item_height_large">56dp</dimen>
+    <dimen name="list_item_height_xl">64dp</dimen>
+    <dimen name="list_item_padding_vertical">6dp</dimen>
+
+    <!-- Reduced chart heights for landscape -->
+    <dimen name="chart_height_small">160dp</dimen>
+    <dimen name="chart_height_medium">220dp</dimen>
+    <dimen name="chart_height_large">280dp</dimen>
+
+    <!-- Compact toolbar for more content space -->
+    <dimen name="toolbar_height">48dp</dimen>
+
+    <!-- Smaller FAB margin to avoid overlap with navigation -->
+    <dimen name="fab_margin">12dp</dimen>
+
+</resources>

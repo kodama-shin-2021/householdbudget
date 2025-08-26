@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notification Channel Names -->
+    <string name="notification_channel_regular_transactions">定期取引</string>
+    <string name="notification_channel_budget_alerts">予算アラート</string>
+    <string name="notification_channel_goals">目標</string>
+    
+    <!-- Notification Channel Descriptions -->
+    <string name="notification_channel_regular_transactions_description">定期的な収支のリマインダーと実行通知</string>
+    <string name="notification_channel_budget_alerts_description">予算超過や閾値に達した際の警告通知</string>
+    <string name="notification_channel_goals_description">目標達成や進捗に関する通知</string>
+</resources>

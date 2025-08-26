@@ -1,0 +1,77 @@
+<!--
+  ~ Copyright 2024 Household Budget App
+  ~ Tablet Dimensions (sw600dp and up)
+  -->
+<resources>
+    
+    <!-- Increased base spacing for tablets -->
+    <dimen name="spacing_normal">20dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">40dp</dimen>
+    <dimen name="spacing_huge">56dp</dimen>
+
+    <!-- Larger margins for better visual hierarchy -->
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_xl">48dp</dimen>
+
+    <!-- Increased padding for better touch targets -->
+    <dimen name="padding_normal">20dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_xl">32dp</dimen>
+    <dimen name="padding_xxl">40dp</dimen>
+
+    <!-- Larger cards for better readability -->
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="card_margin">12dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_corner_radius_large">20dp</dimen>
+
+    <!-- Increased list item heights -->
+    <dimen name="list_item_height_medium">64dp</dimen>
+    <dimen name="list_item_height_large">72dp</dimen>
+    <dimen name="list_item_height_xl">80dp</dimen>
+    <dimen name="list_item_padding_horizontal">20dp</dimen>
+    <dimen name="list_item_padding_vertical">12dp</dimen>
+
+    <!-- Larger icons for better visibility -->
+    <dimen name="icon_size_medium">28dp</dimen>
+    <dimen name="icon_size_large">36dp</dimen>
+    <dimen name="icon_size_xl">56dp</dimen>
+    <dimen name="icon_size_xxl">72dp</dimen>
+
+    <!-- Increased button dimensions -->
+    <dimen name="button_height_medium">48dp</dimen>
+    <dimen name="button_height_large">56dp</dimen>
+    <dimen name="button_height_xl">64dp</dimen>
+
+    <!-- Larger FAB for tablets -->
+    <dimen name="fab_size">64dp</dimen>
+    <dimen name="fab_size_large">80dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+    <!-- Increased toolbar height -->
+    <dimen name="toolbar_height">64dp</dimen>
+
+    <!-- Larger dialog dimensions -->
+    <dimen name="dialog_min_width_major">400dp</dimen>
+    <dimen name="dialog_min_width_minor">320dp</dimen>
+    <dimen name="dialog_corner_radius">20dp</dimen>
+
+    <!-- Chart dimensions optimized for tablets -->
+    <dimen name="chart_height_small">280dp</dimen>
+    <dimen name="chart_height_medium">360dp</dimen>
+    <dimen name="chart_height_large">480dp</dimen>
+
+    <!-- Larger amount text sizes -->
+    <dimen name="amount_text_size_medium">18sp</dimen>
+    <dimen name="amount_text_size_large">22sp</dimen>
+    <dimen name="amount_text_size_xl">28sp</dimen>
+    <dimen name="amount_text_size_hero">36sp</dimen>
+
+    <!-- Increased touch targets -->
+    <dimen name="touch_target_size">56dp</dimen>
+    <dimen name="touch_target_size_small">48dp</dimen>
+
+</resources>
